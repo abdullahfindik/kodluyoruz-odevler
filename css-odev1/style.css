@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    padding: 10px;
+    padding-left: 50px;
+    background-color: rgb(75, 70, 70);
+    height: 55px;
+}
+
+.logo{
+    float: left;
+}
+.logo a{
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 25px;
+    color: goldenrod;
+}
+
+
+.menu{
+    float: right;
+    margin-top:5px;
+    text-align: center;
+}
+
+.menu a{
+    padding: 10px;
+    padding-right:20px;
+    padding-left: 20px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 20px;
+    color: goldenrod;
+
+}
+
+.active{
+    border-bottom: 2px solid goldenrod;
+}
+
+
+.article{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgb(201, 230, 152);
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+img:hover{
+    box-shadow: 10px 10px 7px olivedrab;
+
+
+}
+
+div p {
+    padding: 20px;
+}
+
+
+
+.hakkimda{
+    text-align: left;
+    color: rgb(88, 84, 57);
+}
+
+.profil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input, textarea{
+    padding: 10px;
+    width: 260px;
+    color:black;
+    
+}
+textarea{
+    height: 200px;
+}
+
+.btn{
+    color:rgb(36, 32, 31);
+    background-color: rgb(75, 223, 75)
+}
+
+
+
+.sosyal{
+    font-size: 30px;
+    display: flex;
+    float: right;
+    
+}
+.sosyal li{
+    list-style-type: none;
+   
+}
+i{
+    color: white;
+    padding-right: 20px;
+}
+
+.footer{
+    padding: 10px;
+    padding-left: 50px;
+    background-color: rgb(39, 36, 36);
+    height: 55px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
